@@ -3,6 +3,7 @@ export const SWITCH_TO_USER_LIST = 'SWITCH_TO_USER_LIST';
 
 export const GO_TO_SWIPER_SCREEN = 'GO_TO_SWIPER_SCREEN';
 export const GO_TO_RESULT_SCREEN = 'GO_TO_RESULT_SCREEN';
+export const GO_TO_SWIPER_RESULT_SCREEN = 'GO_TO_SWIPER_RESULT_SCREEN';
 export const GO_TO_TAP_SCREEN = 'GO_TO_TAP_SCREEN';
 export const GO_BACK = 'Navigation/BACK';
 
@@ -27,6 +28,12 @@ export function goToSwiperScreen() {
 export function gotoSearchResult() {
 	return {
 		type: GO_TO_RESULT_SCREEN
+	}
+}
+
+export function gotoSearchSwiperResult() {
+	return {
+		type: GO_TO_SWIPER_RESULT_SCREEN
 	}
 }
 

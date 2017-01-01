@@ -8,13 +8,15 @@ import Tabs from '../TabsScreen';
 import StartScreen from '../StartScreen';
 import { Root } from 'native-base';
 import SearchResult from '../SearchResultScreen';
+import SwiperSearchResult from '../ResultSwiperScreen';
 
 export const MainNavigator = StackNavigator({
 	Root: { screen: RootScreen },
 	Start: { screen: StartScreen },
 	Swiper: { screen: Swiper },
 	Tabs: { screen: Tabs },
-	SearchResult: { screen: SearchResult }
+	SearchResult: { screen: SearchResult },
+	SwiperSearchResult: { screen: SwiperSearchResult }
 }, {
 	headerMode: 'none'
 });

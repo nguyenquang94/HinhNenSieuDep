@@ -4,6 +4,8 @@ import { Dimensions, View, StyleSheet } from 'react-native'
 
 import SideMenuScreen from './SideMenuScreen';
 import MainNavigator from './navigators/MainNavigator';
+import HudView from 'react-native-easy-hud';
+import { setHUD } from './actions/hud';
 
 import { setSideMenu, closeSideMenu, allowShowMenu } from './actions/sidemenu';
 import { Drawer } from 'native-base';
@@ -21,8 +23,16 @@ export class Skeleton extends Component {
 				>
 					<MainNavigator />
 				</Drawer>
+				{ this._renderHUD() }
 			</View>
 		);
+	}
+
+	_renderHUD() {
+		const { dispatch, sidemenu } = this.props;
+		return <HudView
+          ref={(hud) => dispatch(setHUD(hud))}
+        />
 	}
 
 }

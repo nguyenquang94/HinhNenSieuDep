@@ -3,7 +3,9 @@ export const RECIVE_DATA_SEARCH = 'RECIVE_DATA_SEARCH';
 export const RECIVE_DATA_RATING = 'RECIVE_DATA_RATING';
 export const RECIVE_DATA_DOWNLOAD = 'RECIVE_DATA_DOWNLOAD';
 export const SELECT_IMAGE = 'SELECT_IMAGE';
+export const SELECT_SEARCH_IMAGE = 'SELECT_SEARCH_IMAGE';
 export const UPDATE_LOADING = 'UPDATE_LOADING';
+import { openHUD, closeHUD } from './hud';
 
 import { AsyncStorage } from 'react-native';
 import { goToSwiperScreen, gotoSearchResult } from './nav'
@@ -49,6 +51,20 @@ export function selectImage(item, type_go) {
 	}
 }
 
+export function selectSearchImageIndex(item) {
+	console.log('dasdasdsad', item);
+	return (dispatch, getState) => {
+		dispatch(selectSearchImage(item));
+	}
+}
+
+export function selectSearchImage(item) {
+	return {
+		type: SELECT_SEARCH_IMAGE,
+		item
+	}
+}
+
 
 export function updateLoading(status) {
 	return (dispatch, getState) => {
@@ -66,7 +82,7 @@ export function reciverLoading(status) {
 
 export function requestListDataDate() {
 	return (dispatch, getState) => {
-		dispatch(updateLoading(true));
+		dispatch(openHUD());
 		var category_id = getState().category.selected;
 		var width = getState().system.data.width;
 		var height = getState().system.data.height;
@@ -78,10 +94,12 @@ export function requestListDataDate() {
            })
            .then((response) => response.json())
            .then((responseJson) => {
+	           	dispatch(closeHUD());
 	            dispatch(receiveDataDate(responseJson.items));
 	            return responseJson;
            })
            .catch((error) => {
+           		dispatch(closeHUD());
             	console.error(error);
            })
 	}
@@ -133,6 +151,7 @@ export function requestListDataDow() {
 
 export function requestSearch(text, type) {
 	return (dispatch, getState) => {
+		dispatch(openHUD());
 		if ( type == 1) {
 			dispatch(gotoSearchResult());
 		}
@@ -147,11 +166,13 @@ export function requestSearch(text, type) {
            })
            .then((response) => response.json())
            .then((responseJson) => {
+           		dispatch(closeHUD());
 	            dispatch(receiveDataSearch(responseJson.items));
 	            return responseJson;
            })
            .catch((error) => {
             	console.error(error);
+            	dispatch(closeHUD());
            })
 	}
 }

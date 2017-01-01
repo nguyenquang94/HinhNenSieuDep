@@ -117,7 +117,7 @@ export class RootScreen extends Component {
                     )
                     }
                    
-           <PTRView onRefresh={() => this.requestData()} refreshing={ root.loading } >
+           <PTRView style={styles.container} onRefresh={() => this.requestData()} refreshing={ root.loading } >
                 <Content style={styles.container}>
                     
                     <Tabs initialPage={0} style={{backgroundColor: '#0B0E18'}}  >
@@ -146,13 +146,6 @@ export class RootScreen extends Component {
                               />
                         </Tab>
                     </Tabs> 
-                     {(root.loading==true) &&
-                    (
-                        <Spinner style={{
-                                        justifyContent: 'center',
-                                        alignItems: 'center'}}/>
-                    )
-                    }
                 </Content>
             </PTRView>
             <View style={{ alignItems: 'center', bottom: 0, position: 'absolute' }}>
@@ -173,7 +166,7 @@ export class RootScreen extends Component {
             <Header searchBar rounded style={{backgroundColor: '#0B0E18'}}>
                 <Item style={{ backgroundColor: 'white', marginTop: 5 }}>
                     <Icon style={{marginTop:3}} name="ios-search" />
-                    <Input style={{marginTop:3}} onSubmitEditing={(event) => { 
+                    <Input autoFocus={true} style={{marginTop:3}} onSubmitEditing={(event) => { 
                                     this._loadSearch();
                                 }} returnKeyType={'search'} placeholder="Tìm kiếm" onChangeText={(text) => this.updateTextSearch(text)}/>
                     <Button style={{marginBottom: 10}} transparent onPress={() => this.endSearch()}>

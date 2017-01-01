@@ -8,7 +8,7 @@ import material from '../native-base-theme/variables/platform';
 import { openSideMenu } from './actions/sidemenu'
 import { switchToAbsenceList, switchToUserList } from './actions/nav'
 import LinearGradient from 'react-native-linear-gradient';
-import{ StyleSheet, View, TouchableOpacity } from 'react-native';
+import{ StyleSheet, View, TouchableOpacity, Image } from 'react-native';
 import { selectCategoryIndex } from './actions/category';
 
 class SideMenuScreen extends Component {
@@ -19,12 +19,16 @@ class SideMenuScreen extends Component {
 			        <LinearGradient colors={['rgba(0, 0, 0, 0.6)', 'rgba(0,0,0, 0.7)', 'rgba(0,0,0, 1)']} style={styles.linearGradient}>
 						<View style={styles.container}>
 							<Content style={styles.drawerList}>
-								<View style={{paddingTop: 100}}>
-								<TouchableOpacity underlayColor={'rgba(0, 0, 0, 0.6)'} onPress={ ()=> this.props.dispatch(selectCategoryIndex(0))} style={{height: 45, padding: 10,
-									backgroundColor: (this.checkCurrentCategory(0))? '#666666':'rgba(0, 0, 0, 0.6)'}}>
-									<Text style={{color: 'white'}}>All</Text>
-								</TouchableOpacity>
-								{this.renderListMenu()}
+								<View style={{alignItems: 'center', justifyContent: 'center', alignSelf: 'center', marginTop: 20}}>
+								<Image source={require('./icon.png')} style={{ width: 80, 
+           				 		height: 80}} />
+           				 		</View>
+								<View style={{paddingTop: 40}}>
+									<TouchableOpacity underlayColor={'rgba(0, 0, 0, 0.6)'} onPress={ ()=> this.props.dispatch(selectCategoryIndex(0))} style={{height: 45, padding: 10,
+										backgroundColor: (this.checkCurrentCategory(0))? '#666666':'rgba(0, 0, 0, 0.6)'}}>
+										<Text style={{color: 'white'}}>All</Text>
+									</TouchableOpacity>
+									{this.renderListMenu()}
 								</View>
 							</Content>
 							<Text style={styles._version}>

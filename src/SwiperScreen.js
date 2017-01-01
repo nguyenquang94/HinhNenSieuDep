@@ -124,7 +124,7 @@ export class RootScreen extends Component {
                                          <View style={{ opacity: 0.6 ,alignItems: 'center', bottom: 70, position: 'absolute', width: win.width, height: 45, backgroundColor: '#0B0E18' }}>
                                                 
                                             <Right style={{position: 'absolute', right: 0,alignItems: 'center', alignSelf: 'center'}}>
-                                                { this.state.isLoading ? <ActivityIndicator style={{width: 20, height: 20, marginRight: 35, marginTop: 10}} size="large" color={ 'white' } /> : (
+                                                { this.state.isLoading ? <ActivityIndicator style={{width: 20, height: 20, marginRight: 35, marginTop: 10}} size="large" color={ 'green' } /> : (
                                                     <Button  transparent onPress={() => this.dowloadImage(wallpaper.variations.preview_small.url)}>
                                                         <Text style={{color: 'white', marginRight: 10}}>Tải Xuống</Text>
                                                     </Button>

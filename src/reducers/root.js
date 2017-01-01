@@ -1,4 +1,4 @@
-import { RECIVE_DATA_DATE, RECIVE_DATA_RATING, RECIVE_DATA_DOWNLOAD, SELECT_IMAGE, UPDATE_LOADING, RECIVE_DATA_SEARCH  } from '../actions/root';
+import { RECIVE_DATA_DATE, RECIVE_DATA_RATING, RECIVE_DATA_DOWNLOAD, SELECT_IMAGE, UPDATE_LOADING, RECIVE_DATA_SEARCH, SELECT_SEARCH_IMAGE  } from '../actions/root';
 
 const defaultState = {
 	data_date: [],
@@ -10,6 +10,7 @@ const defaultState = {
 	selected: false,
 	type_selected: 1,
 	data_search: [],
+	selected_search: ''
 };
 
 export function root(state = defaultState, action) {
@@ -41,6 +42,10 @@ export function root(state = defaultState, action) {
 			return Object.assign({}, state, {
 				selected: action.item,
 				type_selected: action.type_go
+			});
+		case SELECT_SEARCH_IMAGE:
+			return Object.assign({}, state, {
+				selected_search: action.item,
 			});
 		default:
 			return state;

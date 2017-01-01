@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-spinkit/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="47b99616af6817e323d7b404b2f1922ca22228ad">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-spinkit-unspecified_16159d0866fc6b84eeb7d0cc23a28ad48be328b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-drawee-1.0.1_ffe298c1c2d2cb3c8a2d40f0fc181578303ed2ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_ffe61bf67921222670f1455164bd767d8245b764.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-11.0.4_0f8fe8642855fe8864078813ade487c0d3f276fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.2.0_4a9a5bc2aa75a45ef9cb995c451a47c3c3e18676.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-admob/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="21449f13b1d382578eab07fb71a847f5b7e8ed12">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-admob-unspecified_5e5a27703113b3f68498a2163f4d8052167ae2b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.2.0_9d05feb8e34b05d5991fb9d0933f4dfbf94de6b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.47.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="576b5113887747a7592650ae14d980e1c57983c4">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.react-react-native-0.47.2_7d05229a64c408af52ab16acdf1ee84c6a17fd05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/okhttp-urlconnection-3.6.0_9cf25b16250f4a3a1566af89efa2eb33839b9380.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-vector-icons-unspecified_782af8a9660b3f12b7e48a4b159d21423fede7c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-wallpaper-manager/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7ed1c0bd9e46e829faa33a2160d070bb14ad3ed">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-wallpaper-manager-unspecified_e873393c76df2c40fd1be3348ffa714c4135339a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.47.2/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/infer-annotations-4.0_7d625b34d4babbe315adfc1ba8e3c8a16f872be1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.2.0_25812e104beaa8be4840d046341a3c238edcaf05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/okio-1.13.0_e28f418bc5d9393044ca64be04fa1fc2ded8ea06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.17/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="461929440e66685425a298693507f6fb27b0a872">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.crashlytics.sdk.android-crashlytics-core-2.3.17_83f0f996d8cac5f51833eefbc85a38c857c90b53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.17/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="005d20a198159b87f65812fc5c51b2d84c5eba0a">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/io.fabric.sdk.android-fabric-1.3.17_48155b2e0c7955867b623ebc0cfa0cead9fd50d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.github.ybq/Android-SpinKit/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="21c0f1b0de29bfe601028757c5cb125c343f5164">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.github.ybq-Android-SpinKit-1.1.0_e1c81c390febefb51a03cdb87a6aaba7500f0d3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/okhttp-3.6.0_a84e1dda8183f7406f4b70d9840e55909cd02c68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.2.0_f3d4c0b1f8ac1b7bcb6448195a80ee2cad7d14d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_bd1ca73eb4c156c76e892bae5f6e1589fda19bfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-11.0.4_8e84b4b1ac72aa248ba62dd820f889894fd4bc19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fresco-1.0.1_635200069e65f4c7932954d588e0a8451ecee195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_915c37afb00342d8832fccbb39fa1e38218f01f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-11.0.4_93ef575dcffe7722228c0cf7dd0ac9b52e694392.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-fetch-blob/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5aca1188aec5f45a7580589b8537e9a8a4d9a86f">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-fetch-blob-unspecified_b74cabec376cd67ea7bd4acd426a5652a2dd91c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/javax.inject-1_bf546023653f86f4c4ca2983dd53ec8d0bd35d42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.13/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7045152f3bd1870740b9bcb1cddff495e189774e">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.crashlytics.sdk.android-answers-1.3.13_c11434434224ae6ba6a5a85d515016915c2c3853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="204f607419af8247cc1b2a61f50663c65f841c12">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.crashlytics.sdk.android-beta-1.2.5_814391a84283dc1ba7b109220e3ea92fe073eaa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-11.0.4_4c25818febcedd3dcb8c3ce2815ebd7fe7e5c277.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.soloader-soloader-0.1.0_349ef12bec244d1a9da36f46ba5e340c7047095e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-fast-image/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2c7b50862b94435bdb5fe880290751d5c93a2f44">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-fast-image-unspecified_687f4c5dad758ae04d39c51b019789044e4dc87e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-android-permissions/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92de0a64bcc7c81013c0a55751a68389e1484105">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-android-permissions-unspecified_c4e36f17ef0a6d00373e1015f3288e326af22d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.2.0_c21208d4384535994698961a4b0a80cf7ee7f390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-11.0.4_3c491808413a3e2cb73f94d6cd9fc0051e97eeec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0_70f700867eff94b526abee5b0183cda555221035.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.8.0/9bada650e1afe9c6174ddc0d113c1fce4dc26fe0/glide-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/glide-3.8.0_0615e35bd90b3043dd3abaa2f7df364510316548.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="646439081688c43e04ec4aa7ba6915ddfdcc337f">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.crashlytics.sdk.android-crashlytics-2.6.8_fbf4fac23d3f5a900d1eb079d38512d178fbae01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fbcore-1.0.1_5af3143f407c32724ecccec986407ee13d169cb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-11.0.4_39b2b21b6ba43d1e78d2d6457a6c9ba7931e665b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-base-1.0.1_0ac1b42677f078349e4a01c74d671cf005e3dcfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/jsr305-3.0.0_8b4762198c339a0cfecdee8d60530fe22dbe6e29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/demo3/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/demo3-react-native-linear-gradient-unspecified_972bd178851579c81d383c4d875a6a579f78d252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/support-annotations-25.2.0_5c581aabac1153bfe78d1e4ee8c9ff3fa7a1c1a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/1.5.0/1e5d1f5fb6f867397009e73ea79b108ef6a51fc0/okhttp3-integration-1.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1e5d1f5fb6f867397009e73ea79b108ef6a51fc0">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/okhttp3-integration-1.5.0_dc53f599b290f088aaeea8c80ae4c096d91fc0cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.2.0_3aff35748400a1dc0a72cb3e06fa1d2bb692e1c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-11.0.4_2809d0a335342ceb220587a79bc876201615e224.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-11.0.4_e5c3a310f72edab0f6ea1bb653b47a3adc79de76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/staticlayout-proxy-1.0_f7691eefee26b802f0524c1c6c20f70715100c49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/quangnv/MyProject/Admob/HinhNenSieuDep/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-1.0.1_db3708e3a9a63f0855184703b649f704e04ffe90.jar" />
+    </item>
+
+</items>

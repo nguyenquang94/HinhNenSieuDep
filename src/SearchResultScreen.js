@@ -13,14 +13,14 @@ import * as Progress from 'react-native-progress';
 import { Left, Right, Body, Title, Container, Header, Content, Button, Text, Icon, Fab, Segment, Tabs, Tab, StyleProvider, Spinner, Item, Input } from 'native-base';
 import GridView from 'react-native-grid-view'
 
-import { requestListDataDate, requestListDataRat, requestListDataDow ,selectImageIndex, updateLoading, requestSearch } from './actions/root';
+import { requestListDataDate, requestListDataRat, requestListDataDow ,selectImageIndex, updateLoading, requestSearch, selectSearchImageIndex } from './actions/root';
 import ActionButton from 'react-native-action-button';
 import getTheme from '../native-base-theme/components';
 import material from '../native-base-theme/variables/platform';
 import { openSideMenu } from './actions/sidemenu';
 import { ProgressBar } from './components/ProgressBar';
 import PTRView from 'react-native-pull-to-refresh';
-import { goToSwiperScreen } from './actions/nav';
+import { gotoSearchSwiperResult } from './actions/nav';
 import { goBack } from './actions/nav';
 var win = Dimensions.get('window');
 export class SearchResultScreen extends Component {
@@ -118,7 +118,7 @@ export class SearchResultScreen extends Component {
             <Header searchBar rounded style={{backgroundColor: '#0B0E18'}}>
                 <Item style={{ backgroundColor: 'white', marginTop: 5 }}>
                     <Icon style={{marginTop:3}} name="ios-search" />
-                    <Input style={{marginTop:3}} onSubmitEditing={(event) => { 
+                    <Input autoFocus={true} style={{marginTop:3}} onSubmitEditing={(event) => { 
                                     this._loadSearch();
                                 }} returnKeyType={'search'} placeholder="Tìm kiếm" onChangeText={(text) => this.updateTextSearch(text)}/>
                     <Button style={{marginBottom: 10}} transparent onPress={() => this.endSearch()}>
@@ -164,7 +164,7 @@ export class SearchResultScreen extends Component {
     renderItem1(item) {
         return(
             <View key={item.id}>
-                <TouchableHighlight onPress={() => { this.props.dispatch(selectImageIndex(item, 1)); this.props.dispatch(goToSwiperScreen())}}>
+                <TouchableHighlight onPress={() => { this.props.dispatch(selectSearchImageIndex(item)); this.props.dispatch(gotoSearchSwiperResult())}}>
                     <Image 
                         source={{ uri: item.variations.preview_small.url }} 
                         style={{
@@ -179,41 +179,7 @@ export class SearchResultScreen extends Component {
         );
     }
 
-    renderItem2(item) {
-        return(
-            <View key={item.id}>
-                <TouchableHighlight onPress={() => { this.props.dispatch(selectImageIndex(item, 2)) ; this.props.dispatch(goToSwiperScreen())}}>
-                    <Image 
-                        source={{ uri: item.variations.preview_small.url }} 
-                        style={{
-                            resizeMode: 'stretch',
-                            margin: 1,
-                            backgroundColor: '#f1f1f1',
-                            width: win.width/3, 
-                            height: win.width/2, 
-                    }}/>
-                </TouchableHighlight>
-            </View>
-        );
-    }
-
-    renderItem3(item) {
-        return(
-            <View key={item.id}>
-                <TouchableHighlight onPress={() => { this.props.dispatch(selectImageIndex(item, 3)) ; this.props.dispatch(goToSwiperScreen())}}>
-                    <Image 
-                        source={{ uri: item.variations.preview_small.url }} 
-                        style={{
-                            resizeMode: 'stretch',
-                            margin: 1,
-                            backgroundColor: '#f1f1f1',
-                            width: win.width/3, 
-                            height: win.width/2, 
-                    }}/>
-                </TouchableHighlight>
-            </View>
-        );
-    }
+   
     gotoTabsScreen() {
 
     }
