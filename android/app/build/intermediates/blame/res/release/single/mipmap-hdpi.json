@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/quangnv/MyProject/Wallpaper/android/app/build/intermediates/res/merged/release/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/quangnv/MyProject/Wallpaper/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/quangnv/MyProject/Wallpaper/android/app/build/intermediates/res/merged/release/mipmap-hdpi/icon.png",
+        "source": "/Users/quangnv/MyProject/Wallpaper/android/app/src/main/res/mipmap-hdpi/icon.png"
+    }
+]
