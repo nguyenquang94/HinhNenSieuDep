@@ -3,6 +3,7 @@ package com.demo3;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.cunyutech.hollyliu.reactnative.wallpaper.WallPaperPackage;
 import com.dylanvann.fastimage.FastImageViewPackage;
 import com.react.rnspinkit.RNSpinkitPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -32,6 +33,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new WallPaperPackage(),
             new FastImageViewPackage(),
             new RNSpinkitPackage(),
             new VectorIconsPackage(),

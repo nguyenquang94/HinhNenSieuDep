@@ -1,4 +1,4 @@
-import { RECIVE_DATA_DATE, RECIVE_DATA_RATING, RECIVE_DATA_DOWNLOAD, SELECT_IMAGE, UPDATE_LOADING  } from '../actions/root';
+import { RECIVE_DATA_DATE, RECIVE_DATA_RATING, RECIVE_DATA_DOWNLOAD, SELECT_IMAGE, UPDATE_LOADING, RECIVE_DATA_SEARCH  } from '../actions/root';
 
 const defaultState = {
 	data_date: [],
@@ -9,6 +9,7 @@ const defaultState = {
 	lastUpdate: false,
 	selected: false,
 	type_selected: 1,
+	data_search: [],
 };
 
 export function root(state = defaultState, action) {
@@ -23,6 +24,10 @@ export function root(state = defaultState, action) {
 		case RECIVE_DATA_RATING:
 			return Object.assign({}, state, {
 				data_rat: action.data,
+			});
+		case RECIVE_DATA_SEARCH:
+			return Object.assign({}, state, {
+				data_search: action.data,
 			});
 		case UPDATE_LOADING:
 			return Object.assign({}, state, {

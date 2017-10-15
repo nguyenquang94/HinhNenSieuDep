@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { View, ScrollView, StatusBar, Platform , Dimensions, TouchableOpacity, TouchableHighlight, PixelRatio, Image} from 'react-native';
+import { View, ScrollView, StatusBar, Platform , Dimensions, TouchableOpacity, TouchableHighlight, PixelRatio, Image, ActivityIndicator} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import { sliderWidth, itemWidth } from './styles/SliderEntry.style';
 import SliderEntry from './components/SliderEntry';
@@ -10,10 +10,10 @@ import {checkPermission, requestPermission} from 'react-native-android-permissio
 const { width: viewportWidth, height: viewportHeight } = Dimensions.get('window');
 import { AdMobBanner } from 'react-native-admob';
 import * as Progress from 'react-native-progress';
-import { Left, Right, Body, Title, Container, Header, Content, Button, Text, Icon, Fab, Segment, Tabs, Tab, StyleProvider, Spinner } from 'native-base';
+import { Left, Right, Body, Title, Container, Header, Content, Button, Text, Icon, Fab, Segment, Tabs, Tab, StyleProvider, Spinner, Item, Input } from 'native-base';
 import GridView from 'react-native-grid-view'
 
-import { requestListDataDate, requestListDataRat, requestListDataDow ,selectImageIndex, updateLoading } from './actions/root';
+import { requestListDataDate, requestListDataRat, requestListDataDow ,selectImageIndex, updateLoading, requestSearch } from './actions/root';
 import ActionButton from 'react-native-action-button';
 import getTheme from '../native-base-theme/components';
 import material from '../native-base-theme/variables/platform';
@@ -32,6 +32,8 @@ export class RootScreen extends Component {
             active: false,
             swiper:Object,
             currentIndex:'',
+            isSearch: false,
+            textSearch: ''
         };
     }
 
@@ -87,25 +89,34 @@ export class RootScreen extends Component {
 
     render() {
         const { root, dispatch } = this.props;
-       
         return(
             <StyleProvider style={getTheme(material)}>
             <Container>
-                <Header style={{backgroundColor: '#0B0E18'}}>
-                    <Left>
-                       <Button transparent onPress={() => dispatch(openSideMenu())}>
-                           <Icon style={{color: 'white'}} name='menu' />
-                        </Button>
-                    </Left>
-                    <Body>
-                        <Title>{this.getTitle()}</Title>
-                    </Body>
-                    <Right>
-                        <Button transparent>
-                             <Icon style={{color: 'white'}} name='search' />
-                        </Button>
-                    </Right>
-            </Header>
+                    {(this.state.isSearch==true) &&
+                    (
+                        this._renderSearch()
+                    )
+                    }
+                     {(this.state.isSearch==false) &&
+                    (
+                    <Header style={{backgroundColor: '#0B0E18'}}>
+                        <Left>
+                           <Button transparent onPress={() => dispatch(openSideMenu())}>
+                               <Icon style={{color: 'white'}} name='menu' />
+                            </Button>
+                        </Left>
+                        <Body>
+                            <Title>{this.getTitle()}</Title>
+                        </Body>
+                        <Right>
+                            <Button onPress={()=> this.startSearch()} transparent>
+                                 <Icon style={{color: 'white'}} name='search' />
+                            </Button>
+                        </Right>
+                    </Header>
+                    )
+                    }
+                   
            <PTRView onRefresh={() => this.requestData()} refreshing={ root.loading } >
                 <Content style={styles.container}>
                     
@@ -144,9 +155,9 @@ export class RootScreen extends Component {
                     }
                 </Content>
             </PTRView>
-            <View style={{ alignItems: 'center', bottom: 0, position: 'absolute', marginLeft: 20, marginRight: 20 }}>
+            <View style={{ alignItems: 'center', bottom: 0, position: 'absolute' }}>
                         <AdMobBanner
-                            bannerSize="banner"
+                            bannerSize="smartBannerPortrait"
                             adUnitID="ca-app-pub-4929245687295341/2473004076"
                             testDeviceID="EMULATOR"
                             didFailToReceiveAdWithError={this.bannerError}/>
@@ -157,6 +168,34 @@ export class RootScreen extends Component {
         
     }
 
+    _renderSearch() {
+        return(
+            <Header searchBar rounded style={{backgroundColor: '#0B0E18'}}>
+                <Item style={{ backgroundColor: 'white', marginTop: 5 }}>
+                    <Icon style={{marginTop:3}} name="ios-search" />
+                    <Input style={{marginTop:3}} onSubmitEditing={(event) => { 
+                                    this._loadSearch();
+                                }} returnKeyType={'search'} placeholder="Tìm kiếm" onChangeText={(text) => this.updateTextSearch(text)}/>
+                    <Button style={{marginBottom: 10}} transparent onPress={() => this.endSearch()}>
+                        <Icon name='md-close' />
+                    </Button>
+                </Item>
+                <Button transparent onPress={() => this.endSearch()}>
+                    <Icon name='md-close' />
+                </Button>
+            </Header>
+        );
+    }
+
+    updateTextSearch(text) {
+        this.state.textSearch = text;
+        this.setState(this.state)
+
+    }
+    _loadSearch() {
+        this.endSearch();
+        this.props.dispatch(requestSearch(this.state.textSearch, 1));
+    }
     getTitle() {
         const {category} = this.props;
         var select = category.selected;
@@ -170,6 +209,14 @@ export class RootScreen extends Component {
         }
     }
 
+    startSearch() {
+        this.state.isSearch = true;
+        this.setState(this.state);
+    }
+    endSearch() {
+        this.state.isSearch = false;
+        this.setState(this.state);
+    }
     renderItem1(item) {
         return(
             <View key={item.id}>

@@ -1,15 +1,23 @@
 export const RECIVE_DATA_DATE = 'RECIVE_DATA_DATE';
+export const RECIVE_DATA_SEARCH = 'RECIVE_DATA_SEARCH';
 export const RECIVE_DATA_RATING = 'RECIVE_DATA_RATING';
 export const RECIVE_DATA_DOWNLOAD = 'RECIVE_DATA_DOWNLOAD';
 export const SELECT_IMAGE = 'SELECT_IMAGE';
 export const UPDATE_LOADING = 'UPDATE_LOADING';
 
 import { AsyncStorage } from 'react-native';
-import { goToSwiperScreen } from './nav'
+import { goToSwiperScreen, gotoSearchResult } from './nav'
 
 export function receiveDataDate(data) {
 	return {
 		type: RECIVE_DATA_DATE,
+		data 
+	};
+}
+
+export function receiveDataSearch(data) {
+	return {
+		type: RECIVE_DATA_SEARCH,
 		data 
 	};
 }
@@ -115,6 +123,31 @@ export function requestListDataDow() {
            .then((response) => response.json())
            .then((responseJson) => {
 	            dispatch(receiveDataDownLoad(responseJson.items));
+	            return responseJson;
+           })
+           .catch((error) => {
+            	console.error(error);
+           })
+	}
+}
+
+export function requestSearch(text, type) {
+	return (dispatch, getState) => {
+		if ( type == 1) {
+			dispatch(gotoSearchResult());
+		}
+		var category_id = getState().category.selected;
+		var width = getState().system.data.width;
+		var height = getState().system.data.height;
+		fetch(`http://api.wallpaperscraft.com/images?query=${text}&screen[width]=${width}&screen[height]=${height}&sort=rating&lang=en&limit=60&offset=0` , {
+            method: 'GET',
+            headers: {
+               'Accept': 'application/json',
+            },
+           })
+           .then((response) => response.json())
+           .then((responseJson) => {
+	            dispatch(receiveDataSearch(responseJson.items));
 	            return responseJson;
            })
            .catch((error) => {

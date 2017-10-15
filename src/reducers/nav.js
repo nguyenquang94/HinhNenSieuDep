@@ -4,7 +4,8 @@ import { NavigationActions } from 'react-navigation';
 
 import {
 	GO_TO_TAP_SCREEN,
-	GO_TO_SWIPER_SCREEN
+	GO_TO_SWIPER_SCREEN,
+	GO_TO_RESULT_SCREEN
 } from '../actions/nav';
 
 const firstAction = MainNavigator.router.getActionForPathAndParams('Root');
@@ -23,6 +24,11 @@ export function nav(state = tempNavState, action)
 		case GO_TO_TAP_SCREEN: 
 			return MainNavigator.router.getStateForAction(
 				NavigationActions.navigate({ routeName: "Tabs" }),
+				state
+			);
+		case GO_TO_RESULT_SCREEN: 
+			return MainNavigator.router.getStateForAction(
+				NavigationActions.navigate({ routeName: "SearchResult" }),
 				state
 			);
 		case 'Navigation/BACK':
